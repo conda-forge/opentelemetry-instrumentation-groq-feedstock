@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-groq" %}
-{% set version = "0.44.0" %}
+{% set version = "0.44.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_groq-{{ version }}.tar.gz
-  sha256: 1d3265ac5c0ffb80ebe28510b848d15e631a2f9f665228d36293f736ef794a13
+  sha256: 82d4e01216d6460ef3d9ee491e90db4e465c21ceacdcf14a4c1eaa8553061d54
 
 build:
   noarch: python
