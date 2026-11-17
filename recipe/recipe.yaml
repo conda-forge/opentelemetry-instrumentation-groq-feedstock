@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: opentelemetry-instrumentation-groq
-  version: "0.63.0"
+  version: "0.63.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/opentelemetry_instrumentation_groq-${{ version }}.tar.gz
-  sha256: e8efe8c362b2ac8b767178af06277f68bcef9f0b73eb40654e7909557632ef00
+  sha256: af6bd9228b413941c8ae333b4442d3f7f7c75c22ad9300b7704ca417796931ae
 
 build:
   number: 0
